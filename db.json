@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "name": "Plat 2",
+      "price": 10,
+      "stock": 20,
+      "id": 1
+    },
+    {
+      "name": "plat 1",
+      "price": 123,
+      "stock": 0,
+      "id": 2
+    },
+    {
+      "name": "plat 456",
+      "price": 454,
+      "stock": 54654,
+      "id": 3
+    },
+    {
+      "name": "Salade",
+      "price": 45,
+      "stock": 453254,
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "order": [
+        {
+          "product": {
+            "id": 2,
+            "name": "Plat 2",
+            "price": 10,
+            "stock": 20
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 1,
+            "name": "Plat 1",
+            "price": 10,
+            "stock": 20
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
